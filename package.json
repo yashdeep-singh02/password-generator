@@ -1,0 +1,19 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Simple Password Generator",
+  "preferGlobal": true,
+  "bin": {
+    "passgen": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yashdeep",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^12.0.0"
+  }
+}
